@@ -15,4 +15,4 @@ Currently, the medical field is utilizing medical big data for various research 
 - Mysql
 - AWS S3, Lambda , EC2 
 #  Architecture
-![Project Architecture](https://ibb.co/XWKSMZD)
+![Project Architecture](https://i.ibb.co/RgszdpN/2023-09-20-8-45-05.png)
