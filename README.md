@@ -8,7 +8,7 @@ Currently, the medical field is utilizing medical big data for various research 
 - **De-identification model**: Categorize what's private and what's not, and blur it if it's private
 - **Web**: De-identify the original data in storage (AWS S3) and make the results available on your website
 
-# Development Language and Framework
+# Development Language and Framework
 - Python
 - Spark
 - Flask
