@@ -1,0 +1,104 @@
+.logo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 82%;
+}
+.banner{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 1720px;
+    height: 500px;
+    background-size: 100%;
+    opacity: 90%;
+}
+.h1_text{
+    position: absolute;
+    left: 37%;
+    top: 31%;
+    color:white;
+}
+.input_text{
+    position: absolute;
+    left: 36%;
+    top: 43%;
+    background-color: white;
+    width: 480px;
+    height: 50px;
+}
+.search_button{
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    position: absolute;
+    left: 47%;
+    top: 58%;
+    border-radius: 15px;
+    width: 100px;
+    height: 41px;
+}
+.second_banner{
+    background-color: black;
+    width: 1720px;
+    height: 600px;
+    position: absolute;
+    top: 500px;
+    left: 0%;
+}
+.second_banner img{
+    width: 500px;
+    height: 500px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.second_banner img:hover{
+      -moz-box-shadow: 0 0 10px rgb(65, 0, 155);
+      -webkit-box-shadow: 0 0 10px rgb(65, 0, 155);
+      box-shadow: 5px 5px rgb(65, 0, 155);
+}
+.download_btn{
+
+    position: absolute;
+    top: 1050px;
+    left: 811px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+    line-height: 49px;
+    padding: 0;
+    border: none;
+    width: 100px;
+    text-align: center;
+
+}
+.download_btn:before,
+.download_btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #c797eb;
+  /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+  transition: all 0.3s ease;
+}
+.download_btn:before{
+   height: 0%;
+   width: 2px;
+}
+.download_btn:after {
+  width: 0%;
+  height: 2px;
+}
+.download_btn:hover:before {
+  height: 100%;
+}
+.download_btn:hover:after {
+  width: 100%;
+}
+.download_btn:hover{
+  background: transparent;
+}
