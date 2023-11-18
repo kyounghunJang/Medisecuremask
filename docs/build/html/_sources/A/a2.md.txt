@@ -1,0 +1,30 @@
+# Getting Started: Installation
+
+## Clone Repository
+```bash
+git clone https://github.com/kyounghunJang/Medisecuremask
+```
+
+## Language and Requirement
+
+- Python
+- Spark 3.0 ↑
+- MySQL 
+- Flask
+- boto3
+- pillow
+- easyocr
+- opencv
+- numpy
+- pandas
+
+### MySQL Download Doc
+[https://docs.inductiveautomation.com/display/DOC80/Installing+MySQL](https://docs.inductiveautomation.com/display/DOC80/Installing+MySQL)
+
+### Pyspark Downlod Doc
+[https://spark.apache.org/docs/latest/api/python/getting_started/install.html](https://spark.apache.org/docs/latest/api/python/getting_started/install.html)
+
+### Download Python Libraries
+```bash
+pip install Flask boto3 Pillow easyocr opencv-python numpy pandas
+```
