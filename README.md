@@ -1,5 +1,6 @@
 # Medisecuremask
-
+# Docs Link
+[https://medisecuremask.readthedocs.io/en/latest/](https://medisecuremask.readthedocs.io/en/latest/)
 # Project description
 Currently, the medical field is utilizing medical big data for various research and artificial intelligence development. However, in order to utilize these data, it is necessary to de-identify personal information, which is sensitive information. Therefore, in this project, we created a site where medical data can be de-identified and searched.
 
@@ -16,3 +17,4 @@ Currently, the medical field is utilizing medical big data for various research 
 - AWS S3, Lambda , EC2 
 #  Architecture
 ![Project Architecture](https://i.ibb.co/RgszdpN/2023-09-20-8-45-05.png)
+
